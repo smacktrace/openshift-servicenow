@@ -1,0 +1,14 @@
+apiVersion: v1
+groupNames: null
+kind: ClusterRoleBinding
+metadata: 
+  creationTimestamp: null
+  name: servicenow-view
+roleRef:
+  name: servicenow-view
+subjects:
+  - kind: ServiceAccount
+  - name: servicenow
+  - namespace: servicenow
+userNames:
+  - system:serviceaccount:servicenow:servicenow
