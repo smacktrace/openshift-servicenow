@@ -16,11 +16,12 @@ https://docs.servicenow.com/bundle/london-it-operations-management/page/product/
 1. Create namespace called "servicenow"
 
 2. Create service account called "servicenow"
-
+	```
 	 oc create sa servicenow
-
+	```
 
 ## Impliment Cluster role and Cluster Role Binding
-	
+	 ```
 	 oc apply -f servicenow-view-cluster-role.yml
 	 oc apply -f servicenow-view-cluster-role-binding.yml  
+	 ```
