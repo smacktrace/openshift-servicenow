@@ -1,5 +1,6 @@
 # Service Now Cluster Role to view OCP resources
 
+## Requirements for Service now discovery
 https://docs.servicenow.com/bundle/london-it-operations-management/page/product/service-mapping/concept/kubernetes-discovery.html
 
 	- Provide a user with the permissions to the following /api/v1 elements:
