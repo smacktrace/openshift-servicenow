@@ -17,7 +17,7 @@ https://docs.servicenow.com/bundle/london-it-operations-management/page/product/
 
 2. Create service account called "servicenow"
 
-	oc create sa servicenow
+	 oc create sa servicenow
 
 
 ## Impliment Cluster role and Cluster Role Binding
