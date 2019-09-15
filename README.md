@@ -21,7 +21,7 @@ https://docs.servicenow.com/bundle/london-it-operations-management/page/product/
 	```
 
 ## Impliment Cluster role and Cluster Role Binding
-	 ```
+	 
 	 oc apply -f servicenow-view-cluster-role.yml
 	 oc apply -f servicenow-view-cluster-role-binding.yml  
-	 ```
+	 
