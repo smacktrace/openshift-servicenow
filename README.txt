@@ -21,5 +21,5 @@
 
 ## Impliment Cluster role and Cluster Role Binding
 	
-	- oc apply -f servicenow-view.yml
-	- oc apply -f servicenow-view-cluster-binding.yml  
+	- oc apply -f servicenow-view-cluster-role.yml
+	- oc apply -f servicenow-view-cluster-role-binding.yml  
