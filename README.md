@@ -1,6 +1,6 @@
 # Service Now Cluster Role to view OCP resources
 
-	- https://docs.servicenow.com/bundle/london-it-operations-management/page/product/service-mapping/concept/kubernetes-discovery.html
+https://docs.servicenow.com/bundle/london-it-operations-management/page/product/service-mapping/concept/kubernetes-discovery.html
 
 	- Provide a user with the permissions to the following /api/v1 elements:
 		* https://<url>/api/v1/namespaces/
@@ -21,5 +21,5 @@
 
 ## Impliment Cluster role and Cluster Role Binding
 	
-	- oc apply -f servicenow-view-cluster-role.yml
-	- oc apply -f servicenow-view-cluster-role-binding.yml  
+	 oc apply -f servicenow-view-cluster-role.yml
+	 oc apply -f servicenow-view-cluster-role-binding.yml  
